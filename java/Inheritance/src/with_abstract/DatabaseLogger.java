@@ -1,7 +1,6 @@
-package with_interface;
+package with_abstract;
 
-// with_interface.Logger su database (simulato)
-class DatabaseLogger implements Logger {
+class DatabaseLogger extends Logger {
     @Override
     public void log(String message) {
         System.out.println("with_interface.DatabaseLogger: saved '" + message + "' in database");

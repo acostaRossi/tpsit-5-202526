@@ -1,10 +1,9 @@
-package with_interface;
+package with_abstract;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
-// with_interface.Logger su file
-class FileLogger implements Logger {
+class FileLogger extends Logger {
     private String filename;
 
     public FileLogger(String filename) {

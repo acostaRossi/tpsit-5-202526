@@ -1,7 +1,6 @@
-package with_interface;
+package with_abstract;
 
-// with_interface.Logger su console
-class ConsoleLogger implements Logger {
+class ConsoleLogger extends Logger {
     @Override
     public void log(String message) {
         System.out.println("with_interface.ConsoleLogger: " + message);

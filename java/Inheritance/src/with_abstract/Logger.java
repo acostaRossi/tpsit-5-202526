@@ -1,5 +1,10 @@
-package with_interface;
+package with_abstract;
 
-public interface Logger {
-    void log(String message);
+abstract class Logger {
+    abstract void log(String message);
+    
+    @Override
+    public String toString() {
+        return "Logger";
+    }
 }
