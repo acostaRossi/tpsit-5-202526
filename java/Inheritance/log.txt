@@ -1,0 +1,1 @@
+Messaggio di test per tutti i logger

@@ -1,7 +1,9 @@
+package with_interface;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
-// Logger su file
+// with_interface.Logger su file
 class FileLogger implements Logger {
     private String filename;
 
