@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="51d6c1f1-2e81-47c4-9f71-75d56d6e2153" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,10 @@
     "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/albertocosta/Dev/Scuola/202526/tpsit5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,6 +55,7 @@
       <workItem from="1759842009509" duration="30000" />
       <workItem from="1759907599480" duration="192000" />
       <workItem from="1759907793823" duration="122000" />
+      <workItem from="1759908301395" duration="404000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -81,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759907842901</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1759908339693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759908339693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
