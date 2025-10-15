@@ -1,0 +1,14 @@
+FileReader
+Scopo principale: leggere caratteri da un file di testo.
+Caratteristiche:
+Legge il file un carattere alla volta.
+Non è efficiente se si leggono molte righe o file grandi.
+Si usa principalmente per leggere dati testuali (non binari).
+
+BufferedReader
+Scopo principale: migliorare l’efficienza della lettura dei dati
+da un Reader (come FileReader) e permettere la lettura linea per linea.
+Caratteristiche:
+Ha un buffer interno, quindi riduce il numero di accessi al disco.
+Fornisce il metodo readLine(), che legge un’intera linea di testo alla volta.
+Non legge file binari: funziona solo con testo.
