@@ -9,7 +9,7 @@ public class MyAtomicInteger {
         return value;
     }
 
-    synchronized public void increment() {
+    public void increment() {
         value++;
     }
 }

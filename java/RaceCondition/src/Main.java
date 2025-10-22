@@ -17,6 +17,6 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-        System.out.println(Numero.conta.getValue());
+        System.out.println(Numero.conta);
     }
 }
